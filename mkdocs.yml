@@ -1,0 +1,30 @@
+site_name: Lunar Tear
+site_url: https://vasconii.github.io/lunar-tear/
+site_author: vasconii
+repo_name: vasconii/lunar-tear
+repo_url: https://github.com/vasconii/lunar-tear
+
+theme:
+  name: material
+  features:
+    - content.code.copy
+  palette:
+    scheme: slate
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+nav:
+    - Home: index.md
+    - Setup: Setup.md
