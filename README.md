@@ -1,2 +1,2 @@
-# guide
-Lunar Tear server guide
+# Lunar Tear server setup guide
+
