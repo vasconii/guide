@@ -52,35 +52,35 @@ The folder structure doesn't include most files since they come together with th
 
 ###1.1 - Download `lunar-tear-main.zip` from the server repo.
 
-![Cage](assets/cage1.png){ loading=lazy }
+![Cage](assets\cage1.png){ loading=lazy }
 
 ###1.2 - Download `lunar_tear_patcher.ipynb` from the scripts repo.
 
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage2.png){ loading=lazy }
+![Cage](assets\cage2.png){ loading=lazy }
 
 ###1.3 - Download `resource_dump_android.7z` with qBittorrent.
 
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage4.png){ loading=lazy }
+![Cage](assets\cage4.png){ loading=lazy }
 
 ###1.4 - Download `NieR Re[in]carnation 3.7.1.apk`.
 
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage37.png){ loading=lazy }
+![Cage](assets\cage37.png){ loading=lazy }
 
 ###1.5 - Download `20240404193219.bin.e`.
 
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage38.png){ loading=lazy }
+![Cage](assets\cage38.png){ loading=lazy }
 
 ###1.6 - Download  `go1.26.2.windows-amd64.msi` from the official website.
 
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage3.png){ loading=lazy }
+![Cage](assets\cage3.png){ loading=lazy }
 
 ###1.7 - Download `protoc-35.0-rc-1-win64.zip` from the Github Protoc Repo.
 
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage5.png){ loading=lazy }
+![Cage](assets\cage5.png){ loading=lazy }
 
 ###1.8 - Download `make-3.81.exe` from the official website.
 
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage6.png){ loading=lazy }
+![Cage](assets\cage6.png){ loading=lazy }
 
 ## Step 2 - Adding to Path
 
@@ -88,7 +88,7 @@ The folder structure doesn't include most files since they come together with th
 
 2.1.1 - Open `go1.26.2.windows-amd64.msi` and install it by pressing Next. Go should automatically add itself to Path.
 
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage7.png){ loading=lazy }
+![Cage](assets\cage7.png){ loading=lazy }
 
 ###2.2 - Protoc
 
@@ -97,37 +97,37 @@ The folder structure doesn't include most files since they come together with th
 !!! Tip
     Extract the files to a safe location, so you don't delete them accidentally later.
 
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage9.png){ loading=lazy }
+![Cage](assets\cage9.png){ loading=lazy }
 
 2.2.2 - Navigate to `protoc-35.0-rc-1-win64\bin` and copy the location.
 
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage12.png){ loading=lazy }
+![Cage](assets\cage12.png){ loading=lazy }
 
 2.2.3 - Open the Settings App. Select System>About and Advanced System Settings.
 
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage10.png){ loading=lazy }
+![Cage](assets\cage10.png){ loading=lazy }
 
 2.2.4 - Press the Environment Variables button. Next double click on Path.
 
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage11.png){ loading=lazy }
+![Cage](assets\cage11.png){ loading=lazy }
 
 2.2.5 - Press the New button and paste de location from 2.2.2. Don't close the window yet.
 
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage13.png){ loading=lazy }
+![Cage](assets\cage13.png){ loading=lazy }
 
 ###2.3 - Make
 
 2.3.1 - Open `make-3.81.exe` and install it by pressing Next.
 
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage15.png){ loading=lazy }
+![Cage](assets\cage15.png){ loading=lazy }
 
 2.3.2 - Navigate to `C:\Program Files (x86)\GnuWin32\bin` and copy the location.
 
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage16.png){ loading=lazy }
+![Cage](assets\cage16.png){ loading=lazy }
 
 2.3.3 - Go back to the window we oppened on 2.2.5 and do the same with the location.
 
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage17.png){ loading=lazy }
+![Cage](assets\cage17.png){ loading=lazy }
 
 You can now press Ok in the various windows to apply the Path.
 
@@ -138,15 +138,15 @@ You can now press Ok in the various windows to apply the Path.
 
 2.4.1 - Open the `Command Prompt`, type `go` and press enter.
 
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage8.png){ loading=lazy }
+![Cage](assets\cage8.png){ loading=lazy }
 
 2.4.2 - Next type `protoc` and press enter.
 
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage18.png){ loading=lazy }
+![Cage](assets\cage18.png){ loading=lazy }
 
 2.4.3 - Lastly type `make` and press enter.
 
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage20.png){ loading=lazy }
+![Cage](assets\cage20.png){ loading=lazy }
 
 If all the 3 commands showed up like in the images above, everything is good to go.
 
@@ -157,12 +157,12 @@ If all the 3 commands showed up like in the images above, everything is good to 
 !!! note
     After you create the `nier` folder, move `20240404193219.bin.e`, `resource_dump_android.7z`, `NieR Re[in]carnation 3.7.1.apk` and `lunar_tear_patcher.ipynb` to it.
 
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage21.png){ loading=lazy }
+![Cage](assets\cage21.png){ loading=lazy }
 
 ###3.2 - Open the `Command Prompt` in the `nier` folder. To do this type `cmd` like in the image. Don't close the `Command Prompt`.
 
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage22.png){ loading=lazy }
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage23.png){ loading=lazy }
+![Cage](assets\cage22.png){ loading=lazy }
+![Cage](assets\cage23.png){ loading=lazy }
 
 ###3.3 - Copy the commands bellow, one by one, to create the necessary folders. Or you can do it manually.
 
@@ -170,18 +170,18 @@ If all the 3 commands showed up like in the images above, everything is good to 
 mkdir "server/assets/release"
 mkdir "server/assets/revisions"
 ```
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage24.png){ loading=lazy }
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage25.png){ loading=lazy }
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage26.png){ loading=lazy }
+![Cage](assets\cage24.png){ loading=lazy }
+![Cage](assets\cage25.png){ loading=lazy }
+![Cage](assets\cage26.png){ loading=lazy }
 
 ###3.4 - Open the `lunar-tear-main.zip` and extract the server folder to the nier folder.
 
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage27.png){ loading=lazy }
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage28.png){ loading=lazy }
+![Cage](assets\cage27.png){ loading=lazy }
+![Cage](assets\cage28.png){ loading=lazy }
 
 ###3.5 - Go to the `nier\server\assets\revisions` folder. After that open `resource_dump_android.7z\revisions` and extract the folder 0. This will take some time.
 
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage29.png){ loading=lazy }
+![Cage](assets\cage29.png){ loading=lazy }
 
 !!! Tip
     Everything should be ready to go. If for some reason something fails, check the folder structure and give the guide another look.
@@ -194,17 +194,17 @@ mkdir "server/assets/revisions"
 cd server
 go run ./cmd/wizard --setup-only
 ```
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage30.png){ loading=lazy }
+![Cage](assets\cage30.png){ loading=lazy }
 
 4.1.1 - Android Emulator
 
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage31.png){ loading=lazy }
+![Cage](assets\cage31.png){ loading=lazy }
 
 Select the android emulator you are using. If you don't know choose the `Other / Not Sure` option.
 
 4.1.2 - Phone / Tablet
 
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage32.png){ loading=lazy }
+![Cage](assets\cage32.png){ loading=lazy }
 
 Chose whatever option you intend to use.
 
@@ -213,8 +213,8 @@ Chose whatever option you intend to use.
 	
 ###4.2 - After choosing the option, the program will auto detect your IP adress. Press enter.
 
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage33.png){ loading=lazy }
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage34.png){ loading=lazy }
+![Cage](assets\cage33.png){ loading=lazy }
+![Cage](assets\cage34.png){ loading=lazy }
 
 !!! note
     Your IP adress will be different from the one in the images. Use the IP that appears to you.
@@ -234,15 +234,15 @@ You can either copy and paste directly from the `Command Prompt` or save the IP 
 	
 ###5.1 - Upload `20240404193219.bin.e` and `NieR Re[in]carnation 3.7.1.apk` to the root folder of your Google Drive.
 
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage39.png){ loading=lazy }
+![Cage](assets\cage39.png){ loading=lazy }
 
 ###5.2 - Open the Website [Google Colab](https://colab.research.google.com) and Open `lunar_tear_patcher.ipynb`.
 
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage36.png){ loading=lazy }
+![Cage](assets\cage36.png){ loading=lazy }
 
 If you are already logged in, this window should pop-up. If not use the next image.
 
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage35.png){ loading=lazy }
+![Cage](assets\cage35.png){ loading=lazy }
 
 ###5.3 - File Sources
 
@@ -252,7 +252,7 @@ Copy and paste the first command in the `apk_source` and the second command in t
 MyDrive/NieR Re[in]carnation 3.7.1.apk
 MyDrive/20240404193219.bin.e
 ```
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage40.png){ loading=lazy }
+![Cage](assets\cage40.png){ loading=lazy }
 
 ###5.4 - Server IPs
 
@@ -267,29 +267,29 @@ auth_host = "xxx.xxx.xxx.xxx:3000"
 
 Copy each IP to the corresponding field.
 
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage41.png){ loading=lazy }
+![Cage](assets\cage41.png){ loading=lazy }
 
 ###5.5 - Run the Patch
 
 Press the Run all button.
 
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage42.png){ loading=lazy }
+![Cage](assets\cage42.png){ loading=lazy }
 
 Allow access to your Google Drive and let the patch run.
 
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage43.png){ loading=lazy }
+![Cage](assets\cage43.png){ loading=lazy }
 
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage44.png){ loading=lazy }
+![Cage](assets\cage44.png){ loading=lazy }
 
 When the patching ends a new folder will appear in your drive named `lunar-tear-output`. Open the folder and download both files.
 
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage45.png){ loading=lazy }
+![Cage](assets\cage45.png){ loading=lazy }
 
 ###5.6 - The new `20240404193219.bin.e`
 
 Copy the new `20240404193219.bin.e` to `nier\server\assets\release`.
 
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage46.png){ loading=lazy }
+![Cage](assets\cage46.png){ loading=lazy }
 
 ##6 - Running the Server
 
@@ -300,80 +300,80 @@ cd server
 go run ./cmd/wizard
 ```
 
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage47.png){ loading=lazy }
+![Cage](assets\cage47.png){ loading=lazy }
 
 The wizard will download and install dependencies.
 
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage48.png){ loading=lazy }
+![Cage](assets\cage48.png){ loading=lazy }
 
 When it ends, a prompt will appear. Select Yes.
 
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage49.png){ loading=lazy }
+![Cage](assets\cage49.png){ loading=lazy }
 
 After that 3 windows will appear. Allow access to all of them.
 
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage50.png){ loading=lazy }
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage51.png){ loading=lazy }
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage52.png){ loading=lazy }
+![Cage](assets\cage50.png){ loading=lazy }
+![Cage](assets\cage51.png){ loading=lazy }
+![Cage](assets\cage52.png){ loading=lazy }
 
 ###6.2 - The Server is now working!
 
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage53.png){ loading=lazy }
+![Cage](assets\cage53.png){ loading=lazy }
 
 !!! Tip
     You can create a .bat file in the nier folder to run the server. Just copy the commands in 6.1 to a notepad and save as `Run_Server.bat`
 	
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage54.png){ loading=lazy }
+![Cage](assets\cage54.png){ loading=lazy }
 
 ##7 - Installing the Game
 
 ###7.1 - Open your android emulator or grab your phone/tablet. And drag and drop `patched.apk`
 
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage55.png){ loading=lazy }
+![Cage](assets\cage55.png){ loading=lazy }
 
 ###7.2 - Open the game and Tap Start!
 
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage56.png){ loading=lazy }
+![Cage](assets\cage56.png){ loading=lazy }
 
 If this screen appears, congratulations, everything is working and you can start playing!
 
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage57.png){ loading=lazy }
+![Cage](assets\cage57.png){ loading=lazy }
 
 ###7.3 - Creating and Linking your account
 
 7.3.1 - Select the Menu option.
 
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage58.png){ loading=lazy }
+![Cage](assets\cage58.png){ loading=lazy }
 
 7.3.2 - Select the Transfer Data option.
 
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage59.png){ loading=lazy }
+![Cage](assets\cage59.png){ loading=lazy }
 
 7.3.3 - Select the Facebook sign in.
 
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage60.png){ loading=lazy }
+![Cage](assets\cage60.png){ loading=lazy }
 
 7.3.4 - Choose an username and a password to create your account.
 
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage61.png){ loading=lazy }
+![Cage](assets\cage61.png){ loading=lazy }
 
 ###7.4 - Linking account to a new device
 
 7.4.1 - On the tittle screen press the button in the upper-right corner.
 
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage56.png){ loading=lazy }
+![Cage](assets\cage56.png){ loading=lazy }
 
 7.4.2 - Choose the Transfer Data option.
 
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage62.png){ loading=lazy }
+![Cage](assets\cage62.png){ loading=lazy }
 
 7.4.3 - Press the Facebook button.
 
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage63.png){ loading=lazy }
+![Cage](assets\cage63.png){ loading=lazy }
 
 7.4.4 - And sign in with your account.
 
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage64.png){ loading=lazy }
+![Cage](assets\cage64.png){ loading=lazy }
 
 !!! note
     Everytime you want to switch device you must transfer data. The game doesn't allow multiple devices.
