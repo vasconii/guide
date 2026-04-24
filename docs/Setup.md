@@ -52,7 +52,7 @@ The folder structure doesn't include most files since they come together with th
 
 ###1.1 - Download `lunar-tear-main.zip` from the server repo.
 
-![Cage](http://127.0.0.1:8000/C:\Users\vasco\Desktop\MkDocs\docs\assets\cage1.png){ loading=lazy }
+![Cage](docs/assets/cage1.png){ loading=lazy }
 
 ###1.2 - Download `lunar_tear_patcher.ipynb` from the scripts repo.
 
