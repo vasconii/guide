@@ -26,5 +26,4 @@ markdown_extensions:
   - pymdownx.superfences
 
 nav:
-    - Home: index.md
-    - Setup: Setup.md
+    - Guide: Setup.md
