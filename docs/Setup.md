@@ -363,7 +363,7 @@ If this screen appears, congratulations, everything is working and you can start
 ###7.4 - Linking account to a new device
 
 !!! note 
-    Before you can log in to your account you must delete app data in the android settings.
+    Before you can log in to your account you must clear app data in the android settings.
 
 7.4.1 - On the tittle screen press the button in the upper-right corner.
 
