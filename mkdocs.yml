@@ -1,8 +1,8 @@
 site_name: Lunar Tear
-site_url: https://vasconii.github.io/lunar-tear/
+site_url: https://vasconii.github.io/guide/
 site_author: vasconii
-repo_name: vasconii/lunar-tear
-repo_url: https://github.com/vasconii/lunar-tear
+repo_name: vasconii/guide
+repo_url: https://github.com/vasconii/guide
 
 theme:
   name: material
