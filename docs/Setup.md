@@ -19,7 +19,7 @@ The prerequisites include both tools/programs and the server files.
 **lunar_tear_patcher.ipynb** | [Gitlab scripts repo](https://gitlab.com/walter-sparrow-group/lunar-scripts/-/blob/main/lunar_tear_patcher.ipynb?ref_type=heads)
 **resource_dump_android.7z** | [Archive.org torrent file](https://archive.org/download/nier_reincarnation_assets/nier_reincarnation_assets_archive.torrent)
 **NieR Re[in]carnation 3.7.1.apk** | [Mega Link](https://mega.nz/file/V85j1LBa#dqRN2tn7RXONzg2fx9yEn3Bp_0xeV_qHs1xPvlJvcPo)
-**20240404193219.bin.e** | [Mega Link](https://mega.nz/file/Fw4ExbTb#EVZVwvjV8-w-lBgWazHSUmGJdGfZtndCOaDDGA57cmE)
+**20240404193219.bin.e** | [APK Pure](https://apkpure.com/nier-re-in-carnation/com.square_enix.android_googleplay.nierspjp/download)
 **Go 1.25+** | [go.dev](https://go.dev/dl/)
 **Protoc** | [Github protoc repo](https://github.com/protocolbuffers/protobuf/releases)
 **Make** | [Make](https://sourceforge.net/projects/gnuwin32/files/make/3.81/make-3.81.exe/download)
@@ -65,6 +65,9 @@ The folder structure doesn't include most files since they come together with th
 ###1.4 - Download `NieR Re[in]carnation 3.7.1.apk`.
 
 ![Cage](assets/cage37.png){ loading=lazy }
+
+!!! note 
+    After you download the apk rename it to `NieR Re[in]carnation 3.7.1.apk`
 
 ###1.5 - Download `20240404193219.bin.e`.
 
@@ -358,6 +361,9 @@ If this screen appears, congratulations, everything is working and you can start
 ![Cage](assets/cage61.png){ loading=lazy }
 
 ###7.4 - Linking account to a new device
+
+!!! note 
+    Before you can log in to your account you must delete app data in the android settings.
 
 7.4.1 - On the tittle screen press the button in the upper-right corner.
 
