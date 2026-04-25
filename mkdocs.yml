@@ -26,6 +26,7 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - attr_list
 
 nav:
     - Guide: Setup.md
@@ -35,3 +36,6 @@ plugins:
     - search
     - git-revision-date-localized:
         type: datetime
+         
+extra_javascript:
+  - javascripts/external-links.js

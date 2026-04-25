@@ -185,7 +185,7 @@ mkdir "server/assets/revisions"
 ![Cage](assets/cage27.png){ loading=lazy }
 ![Cage](assets/cage28.png){ loading=lazy }
 
-###3.5 - Go to the `nier\server\assets/revisions` folder. After that open `resource_dump_android.7z\revisions` and extract the folder 0. This will take some time.
+###3.5 - Go to the `nier\server\assets\revisions` folder. After that open `resource_dump_android.7z\revisions` and extract the folder 0. This will take some time.
 
 ![Cage](assets/cage29.png){ loading=lazy }
 
@@ -293,7 +293,7 @@ When the patching ends a new folder will appear in your drive named `lunar-tear-
 
 ###5.6 - The new `20240404193219.bin.e`
 
-Copy the new `20240404193219.bin.e` to `nier\server\assets/release`.
+Copy the new `20240404193219.bin.e` to `nier\server\assets\release`.
 
 ![Cage](assets/cage46.png){ loading=lazy }
 
