@@ -18,7 +18,7 @@ The prerequisites include both tools/programs and the server files.
 **lunar-tear-main.zip** | [Github server repo](https://github.com/Walter-Sparrow/lunar-tear)
 **lunar_tear_patcher.ipynb** | [Gitlab scripts repo](https://gitlab.com/walter-sparrow-group/lunar-scripts/-/blob/main/lunar_tear_patcher.ipynb?ref_type=heads)
 **resource_dump_android.7z** | [Archive.org torrent file](https://archive.org/download/nier_reincarnation_assets/nier_reincarnation_assets_archive.torrent)
-**NieR Re[in]carnation 3.7.1.apk** | [APK Pure](https://apkpure.com/nier-re-in-carnation/com.square_enix.android_googleplay.nierspjp/download)
+**NieR Re[in]carnation 3.7.1.apk** | [Pixel Drain](https://pixeldrain.com/u/2Lxhjybb) or [Torrent](https://cdn.discordapp.com/attachments/1493138253719797876/1497232940940136478/NieR_Reincarnation_3.7.1.apk.torrent?ex=69ee17d6&is=69ecc656&hm=42387f276fa30059f1d935494687b238e150cbf8b07b10cc181f5a71710453be&)
 **20240404193219.bin.e** | [Mega Link](https://mega.nz/file/Fw4ExbTb#EVZVwvjV8-w-lBgWazHSUmGJdGfZtndCOaDDGA57cmE)
 **Go 1.25+** | [go.dev](https://go.dev/dl/)
 **Protoc** | [Github protoc repo](https://github.com/protocolbuffers/protobuf/releases)
