@@ -8,8 +8,10 @@ theme:
   name: material
   features:
     - content.code.copy
+  custom_dir: overrides
   palette:
     scheme: slate
+    
 markdown_extensions:
   - attr_list
   - md_in_html
@@ -28,3 +30,8 @@ markdown_extensions:
 nav:
     - Guide: Setup.md
     - Go Troubleshooting: Go_troubleshooting.md
+
+plugins:
+    - search
+    - git-revision-date-localized:
+        type: datetime
