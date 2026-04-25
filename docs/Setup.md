@@ -26,6 +26,9 @@ The prerequisites include both tools/programs and the server files.
 
 !!! Tip
     To extract `.zip` and `.7z` I recommend [Winrar](https://www.win-rar.com/download.html?&L=0) or [7zip](https://www.7-zip.org/download.html). To download the torrent file I recommend [qBittorrent](https://www.qbittorrent.org/download).
+	
+!!! warning
+    If you downloaded the APK from the APK Pure link, re-download it with the new links. 
 
 
 ## Folder Structure
@@ -65,9 +68,6 @@ The folder structure doesn't include most files since they come together with th
 ###1.4 - Download `NieR Re[in]carnation 3.7.1.apk`.
 
 ![Cage](assets/cage37.png){ loading=lazy }
-
-!!! note 
-    After you download the apk rename it to `NieR Re[in]carnation 3.7.1.apk`
 
 ###1.5 - Download `20240404193219.bin.e`.
 
