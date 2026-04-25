@@ -38,7 +38,6 @@ The folder structure doesn't include most files since they come together with th
     nier/                     # The root folder of the guide.               
 		server/               # Server repo (https://github.com/Walter-Sparrow/lunar-tear)
 			assets/
-				master_data/
 				release/
 				revisions/
 			cmd/
@@ -223,7 +222,7 @@ Chose whatever option you intend to use.
 ![Cage](assets/cage34.png){ loading=lazy }
 
 !!! note
-    Your IP adress will be different from the one in the images. Use the IP that appears to you.
+    Your IP address will be different from the one shown in the images. Use the IP address that appears in your `Command Prompt`.
 	
 ```batch
 grpc_addr = "xxx.xxx.xxx.xxx:8003"
