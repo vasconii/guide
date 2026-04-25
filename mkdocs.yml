@@ -1,4 +1,4 @@
-site_name: Lunar Tear
+site_name: Lunar Tear Installation Guide
 site_url: https://vasconii.github.io/guide/
 site_author: vasconii
 repo_name: vasconii/guide
@@ -27,3 +27,4 @@ markdown_extensions:
 
 nav:
     - Guide: Setup.md
+    - Go Troubleshooting: Go_troubleshooting.md

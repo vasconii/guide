@@ -1,4 +1,4 @@
-# Setup
+# Setup - Introduction
 
 This guide will teach you how to setup the Lunar Tear private server. It's very noob friendly, so everyone should be able to follow. This setup is made for windows and for the android version of the game.
 
@@ -93,6 +93,9 @@ The folder structure doesn't include most files since they come together with th
 
 ![Cage](assets/cage7.png){ loading=lazy }
 
+!!! note
+    If the `go` command doesn't work after installing. Check this [page](Go_troubleshooting.md).
+
 ###2.2 - Protoc
 
 2.2.1 - Extract `protoc-35.0-rc-1-win64.zip`
@@ -114,7 +117,7 @@ The folder structure doesn't include most files since they come together with th
 
 ![Cage](assets/cage11.png){ loading=lazy }
 
-2.2.5 - Press the New button and paste de location from 2.2.2. Don't close the window yet.
+2.2.5 - Press the New button and paste the location from 2.2.2. Don't close the window yet.
 
 ![Cage](assets/cage13.png){ loading=lazy }
 
