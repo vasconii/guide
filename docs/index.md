@@ -1,17 +1,21 @@
-# Welcome to MkDocs
+# Lunar Tear Private Server Setup Guide
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## Introduction
 
-## Commands
+This guide will teach you how to setup the Lunar Tear private server. It's very noob friendly, so everyone should be able to follow. This setup is made for windows and for the android version of the game.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+The official discord: [discord.gg/MZAf5aVkJG](https://discord.gg/MZAf5aVkJG)
 
-## Project layout
+This guide wouldn't be possible without the amazing work of @Kretts and the dev team. Also a big thanks to @_REUSS for the russian guide. And all the people on discord, helping each other out.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+@_REUSS russian guide: [Google Docs](https://docs.google.com/document/d/1HBogKndSLDwBEO7mvqm-AKONTncldMqyrxGXARGQ4zI/edit?tab=t.0#heading=h.563i1ci06vfc)
+
+## Index
+
+[Guide](Setup.md)
+
+[Go Troubleshooting](Go_Troubleshooting.md)
+
+[Static IP](IP_guide.md)
+
+

@@ -36,4 +36,5 @@ Open the `Command Prompt`, type `go` and press enter.
 
 ![Cage](assets/cage8.png){ loading=lazy }
 
-The command should work now, like in the image above.
+!!! success
+    The command should work now, like in the image above.

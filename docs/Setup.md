@@ -1,14 +1,4 @@
-# Setup - Introduction
-
-This guide will teach you how to setup the Lunar Tear private server. It's very noob friendly, so everyone should be able to follow. This setup is made for windows and for the android version of the game.
-
-The official discord: [discord.gg/MZAf5aVkJG](https://discord.gg/MZAf5aVkJG)
-
-This guide wouldn't be possible without the amazing work of @Kretts and the dev team. Also a big thanks to @_REUSS for the russian guide. And all the people on discord, helping each other out.
-
-@_REUSS russian guide: [Google Docs](https://docs.google.com/document/d/1HBogKndSLDwBEO7mvqm-AKONTncldMqyrxGXARGQ4zI/edit?tab=t.0#heading=h.563i1ci06vfc)
-
-
+# Setup Guide
 ## Prerequisites
 
 The prerequisites include both tools/programs and the server files.
@@ -326,7 +316,7 @@ After that 3 windows will appear. Allow access to all of them.
 ![Cage](assets/cage53.png){ loading=lazy }
 
 !!! Tip
-    You can create a .bat file in the nier folder to run the server. Just copy the commands in 6.1 to a notepad and save as `Run_Server.bat`
+    You can create a .bat file in the nier folder to run the server. Just copy the commands in 6.1 to a text file and save as `Run_Server.bat`
 	
 ![Cage](assets/cage54.png){ loading=lazy }
 

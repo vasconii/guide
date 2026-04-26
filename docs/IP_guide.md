@@ -5,9 +5,9 @@ In order to create a server that others can connect to, you need a `Static IP` a
 This section of the guide will teach you how to change to a `Static IP` address.
 
 !!! warning
-    The "Hard Way" requires access to your home router. If you have never done this before, it is better to use a tool like `Tailscale`. Otherwise, you might mess up your internet settings. This warning will appear again before the section.
+    The "Advanced Users" portion of the guide requires access to your home router. If you have never done this before, it is better to use a tool like `Tailscale`. Otherwise, you might mess up your internet settings. This warning will appear again before the section.
 
-## 1 - Static IP inside Windows (Easy way)
+## 1 - Static IP via Windows Network Settings (Beginner Friendly)
 
 The easiest way to set a static IP is in the Windows Network Settings. This avoids messing with your internet router and it's easy to fix if something doesn't work.
 
@@ -71,4 +71,6 @@ If you get this message press Yes.
 ![IP](assets/IP_config/9.png){ loading=lazy }
 	
 !!! warning
-    The "Hard Way" requires access to your home router. If you have never done this before, it is better to use a tool like `Tailscale`. Otherwise, you might mess up your internet settings.
+    The "Advanced Users" portion of the guide requires access to your home router. If you have never done this before, it is better to use a tool like `Tailscale`. Otherwise, you might mess up your internet settings.
+	
+## 2 - Static IP via Router Settings (Advanced Users)
