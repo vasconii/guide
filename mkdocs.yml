@@ -33,7 +33,7 @@ nav:
     - Guide: Setup.md
     - Go Troubleshooting: Go_troubleshooting.md
     - Static IP: IP_guide.md
-    - Port Forwarding: port_forwarding.md
+    
     
 
 plugins:
