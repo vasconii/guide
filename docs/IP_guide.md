@@ -74,3 +74,26 @@ If you get this message press Yes.
     The "Advanced Users" portion of the guide requires access to your home router. If you have never done this before, it is better to use a tool like `Tailscale`. Otherwise, you might mess up your internet settings.
 	
 ## 2 - Static IP via Router Settings (Advanced Users)
+
+The process of changing to a static IP via router varies between ISPs and router manufacturers. I will use my old home router (a MediaAccess TG789vac v2) as an example. This will give you a rough idea of how to do it.
+
+!!! tip
+    If you mess up your router settings, don't worry. They all have a reset button, which is a tiny hole that you can press with a toothpick. Pressing it will restore the default settings.
+	
+And rememeber to check your router manufacturer website. Some have detailed guides on how to do this process.
+
+### 2.1 - Log in to your Router.
+
+Copy the `Default Gateway` IP adress you got earlier in the guide and paste it on your web browser.
+
+!!! note
+    Your IP address will be different from the one shown in the images. Use the IP address that appears in your `Command Prompt`.
+	
+![IP](assets/IP_config/20.png){ loading=lazy }
+
+The login page should load. Enter your username and password. Many routers have "admin" as the default username and password. Try that to see if it works. If not, search for your router model online.
+
+``` batch
+username: admin
+password: admin
+```

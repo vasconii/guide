@@ -375,3 +375,12 @@ If this screen appears, congratulations, everything is working and you can start
 
 !!! note
     Everytime you want to switch device you must transfer data. The game doesn't allow multiple devices.
+	
+!!! success
+    Your server is now fully functional, so you can start enjoying the game! Have fun!
+	
+## 8 - Next Steps (Optional)
+
+Now that you have a server up and running, you may want to play with friends or other people. To do so, you will need to set up a `Static IP` address and `Port Forwarding`.
+
+Check the [Static IP](IP_guide.md) page to learn what to do next.

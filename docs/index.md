@@ -10,7 +10,18 @@ This guide wouldn't be possible without the amazing work of @Kretts and the dev 
 
 @_REUSS russian guide: [Google Docs](https://docs.google.com/document/d/1HBogKndSLDwBEO7mvqm-AKONTncldMqyrxGXARGQ4zI/edit?tab=t.0#heading=h.563i1ci06vfc)
 
-## Index
+## Resources
+
+!!! tip
+    Always check the official repositories for the latest up to date files.
+
+[Lunar Tear repo Github](https://github.com/Walter-Sparrow/lunar-tear)
+
+[Lunar Tear repo Gitlab](https://gitlab.com/walter-sparrow-group/lunar-tear)
+
+[Lunar Scripts repo Gitlab](https://gitlab.com/walter-sparrow-group/lunar-scripts)
+
+## Guides
 
 [Guide](Setup.md)
 
