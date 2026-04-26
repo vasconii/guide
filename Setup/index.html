@@ -1,0 +1,1727 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="vasconii">
+      
+      
+        <link rel="canonical" href="https://vasconii.github.io/guide/Setup/">
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../Go_troubleshooting/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Guide - Lunar Tear Installation Guide</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#setup-guide" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Lunar Tear Installation Guide" class="md-header__button md-logo" aria-label="Lunar Tear Installation Guide" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Lunar Tear Installation Guide
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Guide
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/vasconii/guide" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    vasconii/guide
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Lunar Tear Installation Guide" class="md-nav__button md-logo" aria-label="Lunar Tear Installation Guide" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Lunar Tear Installation Guide
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/vasconii/guide" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    vasconii/guide
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guide
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prerequisites
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#folder-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Folder Structure
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-1-download-the-prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1 - Download the Prerequisites
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 1 - Download the Prerequisites">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-download-lunar-tear-mainzip-from-the-server-repo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1 - Download lunar-tear-main.zip from the server repo.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-download-lunar_tear_patcheripynb-from-the-scripts-repo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2 - Download lunar_tear_patcher.ipynb from the scripts repo.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-download-resource_dump_android7z-with-qbittorrent" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3 - Download resource_dump_android.7z with qBittorrent.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-download-nier-reincarnation-371apk" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4 - Download NieR Re[in]carnation 3.7.1.apk.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15-download-20240404193219bine" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5 - Download 20240404193219.bin.e.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#16-download-go1262windows-amd64msi-from-the-official-website" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.6 - Download go1.26.2.windows-amd64.msi from the official website.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#17-download-protoc-350-rc-1-win64zip-from-the-github-protoc-repo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.7 - Download protoc-35.0-rc-1-win64.zip from the Github Protoc Repo.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#18-download-make-381exe-from-the-official-website" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.8 - Download make-3.81.exe from the official website.
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-2-adding-to-path" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2 - Adding to Path
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 2 - Adding to Path">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-go" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1 - Go
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-protoc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2 - Protoc
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-make" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3 - Make
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-checking-if-everything-worked" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4 - Checking if everything worked
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-3-setup-the-server-folder" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3 - Setup the Server Folder
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 3 - Setup the Server Folder">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-create-a-folder-named-nier" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 - Create a folder named nier
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-open-the-command-prompt-in-the-nier-folder-to-do-this-type-cmd-like-in-the-image-dont-close-the-command-prompt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2 - Open the Command Prompt in the nier folder. To do this type cmd like in the image. Don't close the Command Prompt.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-copy-the-commands-bellow-one-by-one-to-create-the-necessary-folders-or-you-can-do-it-manually" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.3 - Copy the commands bellow, one by one, to create the necessary folders. Or you can do it manually.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-open-the-lunar-tear-mainzip-and-extract-the-server-folder-to-the-nier-folder" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.4 - Open the lunar-tear-main.zip and extract the server folder to the nier folder.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35-go-to-the-nierserverassetsrevisions-folder-after-that-open-resource_dump_android7zrevisions-and-extract-the-folder-0-this-will-take-some-time" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.5 - Go to the nier\server\assets\revisions folder. After that open resource_dump_android.7z\revisions and extract the folder 0. This will take some time.
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-4-getting-your-ip" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 4 - Getting your IP
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 4 - Getting your IP">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-go-back-to-the-command-prompt-in-the-nier-folder-we-oppened-on-32-and-enter-the-following-commands-one-at-the-time" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1 - Go back to the Command Prompt in the nier folder we oppened on 3.2 and enter the following commands one at the time.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-after-choosing-the-option-the-program-will-auto-detect-your-ip-adress-press-enter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2 - After choosing the option, the program will auto detect your IP adress. Press enter.
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-5-patching-with-google-colab" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 5 - Patching with Google Colab
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 5 - Patching with Google Colab">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-upload-20240404193219bine-and-nier-reincarnation-371apk-to-the-root-folder-of-your-google-drive" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1 - Upload 20240404193219.bin.e and NieR Re[in]carnation 3.7.1.apk to the root folder of your Google Drive.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-open-the-website-google-colab-and-open-lunar_tear_patcheripynb" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2 - Open the Website Google Colab and Open lunar_tear_patcher.ipynb.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53-file-sources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.3 - File Sources
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#54-server-ips" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.4 - Server IPs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#55-run-the-patch" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.5 - Run the Patch
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#56-the-new-20240404193219bine" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.6 - The new 20240404193219.bin.e
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-running-the-server" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6 - Running the Server
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6 - Running the Server">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61-open-the-command-prompt-in-the-nier-folder-again-and-run-the-commands-below" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.1 - Open the Command Prompt in the nier folder again and run the commands below.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62-the-server-is-now-working" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.2 - The Server is now working!
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-installing-the-game" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7 - Installing the Game
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7 - Installing the Game">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#71-open-your-android-emulator-or-grab-your-phonetablet-and-drag-and-drop-patchedapk" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.1 - Open your android emulator or grab your phone/tablet. And drag and drop patched.apk
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#72-open-the-game-and-tap-start" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.2 - Open the game and Tap Start!
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#73-creating-and-linking-your-account" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.3 - Creating and Linking your account
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#74-linking-account-to-a-new-device" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.4 - Linking account to a new device
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Go_troubleshooting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Go Troubleshooting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../IP_guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Static IP (Work in Progress)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prerequisites
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#folder-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Folder Structure
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-1-download-the-prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1 - Download the Prerequisites
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 1 - Download the Prerequisites">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-download-lunar-tear-mainzip-from-the-server-repo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1 - Download lunar-tear-main.zip from the server repo.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-download-lunar_tear_patcheripynb-from-the-scripts-repo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2 - Download lunar_tear_patcher.ipynb from the scripts repo.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-download-resource_dump_android7z-with-qbittorrent" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3 - Download resource_dump_android.7z with qBittorrent.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-download-nier-reincarnation-371apk" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4 - Download NieR Re[in]carnation 3.7.1.apk.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15-download-20240404193219bine" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5 - Download 20240404193219.bin.e.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#16-download-go1262windows-amd64msi-from-the-official-website" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.6 - Download go1.26.2.windows-amd64.msi from the official website.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#17-download-protoc-350-rc-1-win64zip-from-the-github-protoc-repo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.7 - Download protoc-35.0-rc-1-win64.zip from the Github Protoc Repo.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#18-download-make-381exe-from-the-official-website" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.8 - Download make-3.81.exe from the official website.
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-2-adding-to-path" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2 - Adding to Path
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 2 - Adding to Path">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-go" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1 - Go
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-protoc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2 - Protoc
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-make" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3 - Make
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-checking-if-everything-worked" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4 - Checking if everything worked
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-3-setup-the-server-folder" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3 - Setup the Server Folder
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 3 - Setup the Server Folder">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-create-a-folder-named-nier" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 - Create a folder named nier
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-open-the-command-prompt-in-the-nier-folder-to-do-this-type-cmd-like-in-the-image-dont-close-the-command-prompt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2 - Open the Command Prompt in the nier folder. To do this type cmd like in the image. Don't close the Command Prompt.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-copy-the-commands-bellow-one-by-one-to-create-the-necessary-folders-or-you-can-do-it-manually" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.3 - Copy the commands bellow, one by one, to create the necessary folders. Or you can do it manually.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-open-the-lunar-tear-mainzip-and-extract-the-server-folder-to-the-nier-folder" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.4 - Open the lunar-tear-main.zip and extract the server folder to the nier folder.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35-go-to-the-nierserverassetsrevisions-folder-after-that-open-resource_dump_android7zrevisions-and-extract-the-folder-0-this-will-take-some-time" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.5 - Go to the nier\server\assets\revisions folder. After that open resource_dump_android.7z\revisions and extract the folder 0. This will take some time.
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-4-getting-your-ip" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 4 - Getting your IP
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 4 - Getting your IP">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-go-back-to-the-command-prompt-in-the-nier-folder-we-oppened-on-32-and-enter-the-following-commands-one-at-the-time" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1 - Go back to the Command Prompt in the nier folder we oppened on 3.2 and enter the following commands one at the time.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-after-choosing-the-option-the-program-will-auto-detect-your-ip-adress-press-enter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2 - After choosing the option, the program will auto detect your IP adress. Press enter.
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-5-patching-with-google-colab" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 5 - Patching with Google Colab
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 5 - Patching with Google Colab">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-upload-20240404193219bine-and-nier-reincarnation-371apk-to-the-root-folder-of-your-google-drive" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1 - Upload 20240404193219.bin.e and NieR Re[in]carnation 3.7.1.apk to the root folder of your Google Drive.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-open-the-website-google-colab-and-open-lunar_tear_patcheripynb" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2 - Open the Website Google Colab and Open lunar_tear_patcher.ipynb.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53-file-sources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.3 - File Sources
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#54-server-ips" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.4 - Server IPs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#55-run-the-patch" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.5 - Run the Patch
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#56-the-new-20240404193219bine" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.6 - The new 20240404193219.bin.e
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-running-the-server" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6 - Running the Server
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6 - Running the Server">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61-open-the-command-prompt-in-the-nier-folder-again-and-run-the-commands-below" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.1 - Open the Command Prompt in the nier folder again and run the commands below.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62-the-server-is-now-working" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.2 - The Server is now working!
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-installing-the-game" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7 - Installing the Game
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7 - Installing the Game">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#71-open-your-android-emulator-or-grab-your-phonetablet-and-drag-and-drop-patchedapk" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.1 - Open your android emulator or grab your phone/tablet. And drag and drop patched.apk
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#72-open-the-game-and-tap-start" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.2 - Open the game and Tap Start!
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#73-creating-and-linking-your-account" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.3 - Creating and Linking your account
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#74-linking-account-to-a-new-device" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.4 - Linking account to a new device
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="setup-guide">Setup Guide</h1>
+<h2 id="prerequisites">Prerequisites</h2>
+<p>The prerequisites include both tools/programs and the server files.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Name</strong></th>
+<th><strong>Link</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>lunar-tear-main.zip</strong></td>
+<td><a href="https://github.com/Walter-Sparrow/lunar-tear">Github server repo</a></td>
+</tr>
+<tr>
+<td><strong>lunar_tear_patcher.ipynb</strong></td>
+<td><a href="https://gitlab.com/walter-sparrow-group/lunar-scripts/-/blob/main/lunar_tear_patcher.ipynb?ref_type=heads">Gitlab scripts repo</a></td>
+</tr>
+<tr>
+<td><strong>resource_dump_android.7z</strong></td>
+<td><a href="https://archive.org/download/nier_reincarnation_assets/nier_reincarnation_assets_archive.torrent">Archive.org torrent file</a></td>
+</tr>
+<tr>
+<td><strong>NieR Re[in]carnation 3.7.1.apk</strong></td>
+<td><a href="https://pixeldrain.com/u/2Lxhjybb">Pixel Drain</a> or <a href="https://cdn.discordapp.com/attachments/1493138253719797876/1497232940940136478/NieR_Reincarnation_3.7.1.apk.torrent?ex=69ee17d6&amp;is=69ecc656&amp;hm=42387f276fa30059f1d935494687b238e150cbf8b07b10cc181f5a71710453be&amp;">Torrent</a></td>
+</tr>
+<tr>
+<td><strong>20240404193219.bin.e</strong></td>
+<td><a href="https://mega.nz/file/Fw4ExbTb#EVZVwvjV8-w-lBgWazHSUmGJdGfZtndCOaDDGA57cmE">Mega Link</a></td>
+</tr>
+<tr>
+<td><strong>Go 1.25+</strong></td>
+<td><a href="https://go.dev/dl/">go.dev</a></td>
+</tr>
+<tr>
+<td><strong>Protoc</strong></td>
+<td><a href="https://github.com/protocolbuffers/protobuf/releases">Github protoc repo</a></td>
+</tr>
+<tr>
+<td><strong>Make</strong></td>
+<td><a href="https://sourceforge.net/projects/gnuwin32/files/make/3.81/make-3.81.exe/download">Make</a></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>To extract <code>.zip</code> and <code>.7z</code> I recommend <a href="https://www.win-rar.com/download.html?&amp;L=0">Winrar</a> or <a href="https://www.7-zip.org/download.html">7zip</a>. To download the torrent file I recommend <a href="https://www.qbittorrent.org/download">qBittorrent</a>.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>If you downloaded the APK from the APK Pure link, re-download it with the new links. </p>
+</div>
+<h2 id="folder-structure">Folder Structure</h2>
+<p>The folder structure doesn't include most files since they come together with the .zip files. Everything will be explained together with pictures.</p>
+<div class="language-text highlight"><pre><span></span><code>nier/                     # The root folder of the guide.               
+    server/               # Server repo (https://github.com/Walter-Sparrow/lunar-tear)
+        assets/
+            release/
+            revisions/
+        cmd/
+        internal/
+        migrations/
+        proto/
+20240404193219.bin.e
+NieR Re[in]carnation 3.7.1.apk
+lunar_tear_patcher.ipynb  # Scripts repo (https://gitlab.com/walter-sparrow-group/lunar-scripts)
+resource_dump_android.7z
+</code></pre></div>
+<h2 id="step-1-download-the-prerequisites">Step 1 - Download the Prerequisites</h2>
+<h3 id="11-download-lunar-tear-mainzip-from-the-server-repo">1.1 - Download <code>lunar-tear-main.zip</code> from the server repo.</h3>
+<p><img alt="Cage" loading="lazy" src="../assets/cage1.png" /></p>
+<h3 id="12-download-lunar_tear_patcheripynb-from-the-scripts-repo">1.2 - Download <code>lunar_tear_patcher.ipynb</code> from the scripts repo.</h3>
+<p><img alt="Cage" loading="lazy" src="../assets/cage2.png" /></p>
+<h3 id="13-download-resource_dump_android7z-with-qbittorrent">1.3 - Download <code>resource_dump_android.7z</code> with qBittorrent.</h3>
+<p><img alt="Cage" loading="lazy" src="../assets/cage4.png" /></p>
+<h3 id="14-download-nier-reincarnation-371apk">1.4 - Download <code>NieR Re[in]carnation 3.7.1.apk</code>.</h3>
+<p><img alt="Cage" loading="lazy" src="../assets/cage37.png" /></p>
+<h3 id="15-download-20240404193219bine">1.5 - Download <code>20240404193219.bin.e</code>.</h3>
+<p><img alt="Cage" loading="lazy" src="../assets/cage38.png" /></p>
+<h3 id="16-download-go1262windows-amd64msi-from-the-official-website">1.6 - Download  <code>go1.26.2.windows-amd64.msi</code> from the official website.</h3>
+<p><img alt="Cage" loading="lazy" src="../assets/cage3.png" /></p>
+<h3 id="17-download-protoc-350-rc-1-win64zip-from-the-github-protoc-repo">1.7 - Download <code>protoc-35.0-rc-1-win64.zip</code> from the Github Protoc Repo.</h3>
+<p><img alt="Cage" loading="lazy" src="../assets/cage5.png" /></p>
+<h3 id="18-download-make-381exe-from-the-official-website">1.8 - Download <code>make-3.81.exe</code> from the official website.</h3>
+<p><img alt="Cage" loading="lazy" src="../assets/cage6.png" /></p>
+<h2 id="step-2-adding-to-path">Step 2 - Adding to Path</h2>
+<h3 id="21-go">2.1 - Go</h3>
+<p>2.1.1 - Open <code>go1.26.2.windows-amd64.msi</code> and install it by pressing Next. Go should automatically add itself to Path.</p>
+<p><img alt="Cage" loading="lazy" src="../assets/cage7.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If the <code>go</code> command doesn't work after installing. Check this <a href="../Go_troubleshooting/">page</a>.</p>
+</div>
+<h3 id="22-protoc">2.2 - Protoc</h3>
+<p>2.2.1 - Extract <code>protoc-35.0-rc-1-win64.zip</code></p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Extract the files to a safe location, so you don't delete them accidentally later.</p>
+</div>
+<p><img alt="Cage" loading="lazy" src="../assets/cage9.png" /></p>
+<p>2.2.2 - Navigate to <code>protoc-35.0-rc-1-win64\bin</code> and copy the location.</p>
+<p><img alt="Cage" loading="lazy" src="../assets/cage12.png" /></p>
+<p>2.2.3 - Open the Settings App. Select System&gt;About and Advanced System Settings.</p>
+<p><img alt="Cage" loading="lazy" src="../assets/cage10.png" /></p>
+<p>2.2.4 - Press the Environment Variables button. Next double click on Path.</p>
+<p><img alt="Cage" loading="lazy" src="../assets/cage11.png" /></p>
+<p>2.2.5 - Press the New button and paste the location from 2.2.2. Don't close the window yet.</p>
+<p><img alt="Cage" loading="lazy" src="../assets/cage13.png" /></p>
+<h3 id="23-make">2.3 - Make</h3>
+<p>2.3.1 - Open <code>make-3.81.exe</code> and install it by pressing Next.</p>
+<p><img alt="Cage" loading="lazy" src="../assets/cage15.png" /></p>
+<p>2.3.2 - Navigate to <code>C:\Program Files (x86)\GnuWin32\bin</code> and copy the location.</p>
+<p><img alt="Cage" loading="lazy" src="../assets/cage16.png" /></p>
+<p>2.3.3 - Go back to the window we oppened on 2.2.5 and do the same with the location.</p>
+<p><img alt="Cage" loading="lazy" src="../assets/cage17.png" /></p>
+<p>You can now press Ok in the various windows to apply the Path.</p>
+<h3 id="24-checking-if-everything-worked">2.4 - Checking if everything worked</h3>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you have the<code>Command Prompt</code> open, for any reason, close it and re-open it or the commands won't work.</p>
+</div>
+<p>2.4.1 - Open the <code>Command Prompt</code>, type <code>go</code> and press enter.</p>
+<p><img alt="Cage" loading="lazy" src="../assets/cage8.png" /></p>
+<p>2.4.2 - Next type <code>protoc</code> and press enter.</p>
+<p><img alt="Cage" loading="lazy" src="../assets/cage18.png" /></p>
+<p>2.4.3 - Lastly type <code>make</code> and press enter.</p>
+<p><img alt="Cage" loading="lazy" src="../assets/cage20.png" /></p>
+<p>If all the 3 commands showed up like in the images above, everything is good to go.</p>
+<h2 id="step-3-setup-the-server-folder">Step 3 - Setup the Server Folder</h2>
+<h3 id="31-create-a-folder-named-nier">3.1 - Create a folder named <code>nier</code></h3>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>After you create the <code>nier</code> folder, move <code>20240404193219.bin.e</code>, <code>resource_dump_android.7z</code>, <code>NieR Re[in]carnation 3.7.1.apk</code> and <code>lunar_tear_patcher.ipynb</code> to it.</p>
+</div>
+<p><img alt="Cage" loading="lazy" src="../assets/cage21.png" /></p>
+<h3 id="32-open-the-command-prompt-in-the-nier-folder-to-do-this-type-cmd-like-in-the-image-dont-close-the-command-prompt">3.2 - Open the <code>Command Prompt</code> in the <code>nier</code> folder. To do this type <code>cmd</code> like in the image. Don't close the <code>Command Prompt</code>.</h3>
+<p><img alt="Cage" loading="lazy" src="../assets/cage22.png" />
+<img alt="Cage" loading="lazy" src="../assets/cage23.png" /></p>
+<h3 id="33-copy-the-commands-bellow-one-by-one-to-create-the-necessary-folders-or-you-can-do-it-manually">3.3 - Copy the commands bellow, one by one, to create the necessary folders. Or you can do it manually.</h3>
+<p><div class="language-batch highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="k">mkdir</span> <span class="s2">&quot;server/assets/release&quot;</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="k">mkdir</span> <span class="s2">&quot;server/assets/revisions&quot;</span>
+</span></code></pre></div>
+<img alt="Cage" loading="lazy" src="../assets/cage24.png" />
+<img alt="Cage" loading="lazy" src="../assets/cage25.png" />
+<img alt="Cage" loading="lazy" src="../assets/cage26.png" /></p>
+<h3 id="34-open-the-lunar-tear-mainzip-and-extract-the-server-folder-to-the-nier-folder">3.4 - Open the <code>lunar-tear-main.zip</code> and extract the server folder to the nier folder.</h3>
+<p><img alt="Cage" loading="lazy" src="../assets/cage27.png" />
+<img alt="Cage" loading="lazy" src="../assets/cage28.png" /></p>
+<h3 id="35-go-to-the-nierserverassetsrevisions-folder-after-that-open-resource_dump_android7zrevisions-and-extract-the-folder-0-this-will-take-some-time">3.5 - Go to the <code>nier\server\assets\revisions</code> folder. After that open <code>resource_dump_android.7z\revisions</code> and extract the folder 0. This will take some time.</h3>
+<p><img alt="Cage" loading="lazy" src="../assets/cage29.png" /></p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Everything should be ready to go. If for some reason something fails, check the folder structure and give the guide another look.</p>
+</div>
+<h2 id="step-4-getting-your-ip">Step 4 - Getting your IP</h2>
+<h3 id="41-go-back-to-the-command-prompt-in-the-nier-folder-we-oppened-on-32-and-enter-the-following-commands-one-at-the-time">4.1 - Go back to the <code>Command Prompt</code> in the <code>nier</code> folder we oppened on 3.2 and enter the following commands one at the time.</h3>
+<p><div class="language-batch highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="k">cd</span> server
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>go run ./cmd/wizard --setup-only
+</span></code></pre></div>
+<img alt="Cage" loading="lazy" src="../assets/cage30.png" /></p>
+<p>4.1.1 - Android Emulator</p>
+<p><img alt="Cage" loading="lazy" src="../assets/cage31.png" /></p>
+<p>Select the android emulator you are using. If you don't know choose the <code>Other / Not Sure</code> option.</p>
+<p>4.1.2 - Phone / Tablet</p>
+<p><img alt="Cage" loading="lazy" src="../assets/cage32.png" /></p>
+<p>Chose whatever option you intend to use.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you choose the first option <code>Same Wi-Fi Network</code>, remember to use a static IP adress or the IP could change between sessions.</p>
+</div>
+<h3 id="42-after-choosing-the-option-the-program-will-auto-detect-your-ip-adress-press-enter">4.2 - After choosing the option, the program will auto detect your IP adress. Press enter.</h3>
+<p><img alt="Cage" loading="lazy" src="../assets/cage33.png" />
+<img alt="Cage" loading="lazy" src="../assets/cage34.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Your IP address will be different from the one shown in the images. Use the IP address that appears in your <code>Command Prompt</code>.</p>
+</div>
+<div class="language-batch highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>grpc_addr = <span class="s2">&quot;xxx.xxx.xxx.xxx:8003&quot;</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>http_addr = <span class="s2">&quot;xxx.xxx.xxx.xxx:8080&quot;</span>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>auth_host = <span class="s2">&quot;xxx.xxx.xxx.xxx:3000&quot;</span>
+</span></code></pre></div>
+<p>You can either copy and paste directly from the <code>Command Prompt</code> or save the IP in a Notebook file on your computer.</p>
+<h2 id="step-5-patching-with-google-colab">Step 5 - Patching with Google Colab</h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You must have a Google account to use Google Drive and Google Colab.</p>
+</div>
+<h3 id="51-upload-20240404193219bine-and-nier-reincarnation-371apk-to-the-root-folder-of-your-google-drive">5.1 - Upload <code>20240404193219.bin.e</code> and <code>NieR Re[in]carnation 3.7.1.apk</code> to the root folder of your Google Drive.</h3>
+<p><img alt="Cage" loading="lazy" src="../assets/cage39.png" /></p>
+<h3 id="52-open-the-website-google-colab-and-open-lunar_tear_patcheripynb">5.2 - Open the Website <a href="https://colab.research.google.com">Google Colab</a> and Open <code>lunar_tear_patcher.ipynb</code>.</h3>
+<p><img alt="Cage" loading="lazy" src="../assets/cage36.png" /></p>
+<p>If you are already logged in, this window should pop-up. If not use the next image.</p>
+<p><img alt="Cage" loading="lazy" src="../assets/cage35.png" /></p>
+<h3 id="53-file-sources">5.3 - File Sources</h3>
+<p>Copy and paste the first command in the <code>apk_source</code> and the second command in the <code>masterdata_source</code>.</p>
+<p><div class="language-batch highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>MyDrive/NieR Re[in]carnation 3.7.1.apk
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>MyDrive/20240404193219.bin.e
+</span></code></pre></div>
+<img alt="Cage" loading="lazy" src="../assets/cage40.png" /></p>
+<h3 id="54-server-ips">5.4 - Server IPs</h3>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Remember to use your own IPs. Not the ones in the images.</p>
+</div>
+<div class="language-batch highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>grpc_addr = <span class="s2">&quot;xxx.xxx.xxx.xxx:8003&quot;</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>http_addr = <span class="s2">&quot;xxx.xxx.xxx.xxx:8080&quot;</span>
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>auth_host = <span class="s2">&quot;xxx.xxx.xxx.xxx:3000&quot;</span>
+</span></code></pre></div>
+<p>Copy each IP to the corresponding field.</p>
+<p><img alt="Cage" loading="lazy" src="../assets/cage41.png" /></p>
+<h3 id="55-run-the-patch">5.5 - Run the Patch</h3>
+<p>Press the Run all button.</p>
+<p><img alt="Cage" loading="lazy" src="../assets/cage42.png" /></p>
+<p>Allow access to your Google Drive and let the patch run.</p>
+<p><img alt="Cage" loading="lazy" src="../assets/cage43.png" /></p>
+<p><img alt="Cage" loading="lazy" src="../assets/cage44.png" /></p>
+<p>When the patching ends a new folder will appear in your drive named <code>lunar-tear-output</code>. Open the folder and download both files.</p>
+<p><img alt="Cage" loading="lazy" src="../assets/cage45.png" /></p>
+<h3 id="56-the-new-20240404193219bine">5.6 - The new <code>20240404193219.bin.e</code></h3>
+<p>Copy the new <code>20240404193219.bin.e</code> to <code>nier\server\assets\release</code>.</p>
+<p><img alt="Cage" loading="lazy" src="../assets/cage46.png" /></p>
+<h2 id="6-running-the-server">6 - Running the Server</h2>
+<h3 id="61-open-the-command-prompt-in-the-nier-folder-again-and-run-the-commands-below">6.1 - Open the <code>Command Prompt</code> in the <code>nier</code> folder again and run the commands below.</h3>
+<div class="language-batch highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="k">cd</span> server
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>go run ./cmd/wizard
+</span></code></pre></div>
+<p><img alt="Cage" loading="lazy" src="../assets/cage47.png" /></p>
+<p>The wizard will download and install dependencies.</p>
+<p><img alt="Cage" loading="lazy" src="../assets/cage48.png" /></p>
+<p>When it ends, a prompt will appear. Select Yes.</p>
+<p><img alt="Cage" loading="lazy" src="../assets/cage49.png" /></p>
+<p>After that 3 windows will appear. Allow access to all of them.</p>
+<p><img alt="Cage" loading="lazy" src="../assets/cage50.png" />
+<img alt="Cage" loading="lazy" src="../assets/cage51.png" />
+<img alt="Cage" loading="lazy" src="../assets/cage52.png" /></p>
+<h3 id="62-the-server-is-now-working">6.2 - The Server is now working!</h3>
+<p><img alt="Cage" loading="lazy" src="../assets/cage53.png" /></p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>You can create a .bat file in the nier folder to run the server. Just copy the commands in 6.1 to a text file and save as <code>Run_Server.bat</code></p>
+</div>
+<p><img alt="Cage" loading="lazy" src="../assets/cage54.png" /></p>
+<h2 id="7-installing-the-game">7 - Installing the Game</h2>
+<h3 id="71-open-your-android-emulator-or-grab-your-phonetablet-and-drag-and-drop-patchedapk">7.1 - Open your android emulator or grab your phone/tablet. And drag and drop <code>patched.apk</code></h3>
+<p><img alt="Cage" loading="lazy" src="../assets/cage55.png" /></p>
+<h3 id="72-open-the-game-and-tap-start">7.2 - Open the game and Tap Start!</h3>
+<p><img alt="Cage" loading="lazy" src="../assets/cage56.png" /></p>
+<p>If this screen appears, congratulations, everything is working and you can start playing!</p>
+<p><img alt="Cage" loading="lazy" src="../assets/cage57.png" /></p>
+<h3 id="73-creating-and-linking-your-account">7.3 - Creating and Linking your account</h3>
+<p>7.3.1 - Select the Menu option.</p>
+<p><img alt="Cage" loading="lazy" src="../assets/cage58.png" /></p>
+<p>7.3.2 - Select the Transfer Data option.</p>
+<p><img alt="Cage" loading="lazy" src="../assets/cage59.png" /></p>
+<p>7.3.3 - Select the Facebook sign in.</p>
+<p><img alt="Cage" loading="lazy" src="../assets/cage60.png" /></p>
+<p>7.3.4 - Choose an username and a password to create your account.</p>
+<p><img alt="Cage" loading="lazy" src="../assets/cage61.png" /></p>
+<h3 id="74-linking-account-to-a-new-device">7.4 - Linking account to a new device</h3>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Before you can log in to your account you must clear app data in the android settings.</p>
+</div>
+<p>7.4.1 - On the tittle screen press the button in the upper-right corner.</p>
+<p><img alt="Cage" loading="lazy" src="../assets/cage56.png" /></p>
+<p>7.4.2 - Choose the Transfer Data option.</p>
+<p><img alt="Cage" loading="lazy" src="../assets/cage62.png" /></p>
+<p>7.4.3 - Press the Facebook button.</p>
+<p><img alt="Cage" loading="lazy" src="../assets/cage63.png" /></p>
+<p>7.4.4 - And sign in with your account.</p>
+<p><img alt="Cage" loading="lazy" src="../assets/cage64.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Everytime you want to switch device you must transfer data. The game doesn't allow multiple devices.</p>
+</div>
+
+  <div class="md-source-file">
+    <small>
+      This page was last updated:
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime" title="April 26, 2026 13:45:17 UTC">April 26, 2026 13:45:17</span>
+    </small>
+  </div>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["content.code.copy"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="../javascripts/external-links.js"></script>
+      
+    
+  </body>
+</html>
