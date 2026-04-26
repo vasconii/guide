@@ -1,4 +1,4 @@
-# Static IP Guide
+# Static IP Guide (Work in Progress)
 
 In order to create a server that others can connect to, you need a `Static IP` address. Without a `Static IP`, the IP address can change on its own, which would require you to change the server IP and patch the APK again.
 
