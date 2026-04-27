@@ -25,8 +25,10 @@ This guide wouldn't be possible without the amazing work of @Kretts and the dev 
 
 [Guide](Setup.md)
 
+[Static IP](IP_guide.md)
+
 [Go Troubleshooting](Go_Troubleshooting.md)
 
-[Static IP](IP_guide.md)
+
 
 
