@@ -110,7 +110,7 @@ Select the DHCP tab and look for the higlited section.
 
 ### 2.3 - MAC Address and Static IP
 
-!!! warning
+!!! danger
     Under no circumstances should you ever share your `MAC address` with anyone. Doing so will compromise your security. No exceptions. 
 
 Select your computer from the drop down menu. My computer is called "Gongaga".
