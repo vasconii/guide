@@ -1,4 +1,4 @@
-# Static IP Guide (Work in Progress)
+# Static IP Guide
 
 In order to create a server that others can connect to, you need a `Static IP` address. Without a `Static IP`, the IP address can change on its own, which would require you to change the server IP and patch the APK again.
 
@@ -75,7 +75,7 @@ If you get this message press Yes.
 	
 ## 2 - Static IP via Router Settings (Advanced Users)
 
-The process of changing to a static IP via router varies between ISPs and router manufacturers. I will use my old home router (a MediaAccess TG789vac v2) as an example. This will give you a rough idea of how to do it.
+The process of changing to a static IP via router varies between ISPs and router manufacturers. I will use my old home router (an Asus RT-AC51U) as an example. This will give you a rough idea on how to do it.
 
 !!! tip
     If you mess up your router settings, don't worry. They all have a reset button, which is a tiny hole that you can press with a toothpick. Pressing it will restore the default settings.
@@ -97,3 +97,44 @@ The login page should load. Enter your username and password. Many routers have 
 username: admin
 password: admin
 ```
+
+### 2.2 - LAN settings
+
+Select LAN in the Advanced Settings.
+
+![IP](assets/IP_config/21.png){ loading=lazy }
+
+Select the DHCP tab and look for the higlited section.
+
+![IP](assets/IP_config/22.png){ loading=lazy }
+
+### 2.3 - MAC Address and Static IP
+
+!!! warning
+    Under no circumstances should you ever share your `MAC address` with anyone. Doing so will compromise your security. No exceptions. 
+
+Select your computer from the drop down menu. My computer is called "Gongaga".
+
+![IP](assets/IP_config/23.png){ loading=lazy }
+
+If you don't know your device name you can input your `MAC address`. To get your address open the `Command Prompt` and copy and paste the following:
+
+``` batch
+ipconfig /all
+```
+
+![IP](assets/IP_config/27.png){ loading=lazy }
+
+Look for `Physical Address`. Copy and paste it in the "Client Name (MAC Address)".
+
+Next copy and paste your IP adress. Afterwards press the "+" button to add.
+
+![IP](assets/IP_config/24.png){ loading=lazy }
+
+You will see your computer with the assigned IP adress. Press apply and wait.
+
+![IP](assets/IP_config/25.png){ loading=lazy }
+![IP](assets/IP_config/26.png){ loading=lazy }
+
+!!! success
+    Now that you have a `Static IP` address, you can move on to the next step: `Port Forwarding`. Refer to the next section of the guide to continue.
