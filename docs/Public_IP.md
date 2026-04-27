@@ -59,10 +59,11 @@ Open the Website [Google Colab](https://colab.research.google.com) and open `lun
 
 ![Cage](assets/cage36.png){ loading=lazy }
 
-Copy and paste the command in the `apk_source`.
+Copy and paste the first command in the `apk_source` and the second command in the `masterdata_source`.
 
 ```batch
 MyDrive/NieR Re[in]carnation 3.7.1.apk
+MyDrive/20240404193219.bin.e
 ```
 
 ![Cage](assets/cage40.png){ loading=lazy }
@@ -80,20 +81,26 @@ Copy and paste your `Public IP` in each field.
 
 ![Cage](assets/cage41.png){ loading=lazy }
 
-Scroll down until you see "Patch APK" and press the run button.
+Press the Run all button.
 
-![IP](assets/Public_IP/7.png){ loading=lazy }
+![Cage](assets/cage42.png){ loading=lazy }
 
 Allow access to your Google Drive and let the patch run.
 
 ![Cage](assets/cage43.png){ loading=lazy }
 
-When the patching ends a new folder will appear in your drive named `lunar-tear-output`. Open the folder and download the new APK.
+![Cage](assets/cage44.png){ loading=lazy }
 
-![IP](assets/Public_IP/8.png){ loading=lazy }
+When the patching ends a new folder will appear in your drive named `lunar-tear-output`. Open the folder and download both files.
+
+![Cage](assets/cage45.png){ loading=lazy }
+
+Copy the new `20240404193219.bin.e` to `nier\server\assets\release`.
+
+![Cage](assets/cage46.png){ loading=lazy }
 
 !!! success
-    You now have the new APK ready to connect to your server!
+    You now have the new APK ready to be installed and to connect to your server! 
 	
 ## 4 - Enjoy playing with your friends in your server
 
