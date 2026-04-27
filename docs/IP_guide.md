@@ -75,7 +75,7 @@ If you get this message press Yes.
 	
 ## 2 - Static IP via Router Settings (Advanced Users)
 
-The process of changing to a static IP via router varies between ISPs and router manufacturers. I will use my old home router (an Asus RT-AC51U) as an example. This will give you a rough idea on how to do it.
+The process of changing to a `Static IP` via router varies between ISPs and router manufacturers. I will use my old home router (an Asus RT-AC51U) as an example. This will give you a rough idea on how to do it.
 
 !!! tip
     If you mess up your router settings, don't worry. They all have a reset button, which is a tiny hole that you can press with a toothpick. Pressing it will restore the default settings.
@@ -138,3 +138,5 @@ You will see your computer with the assigned IP adress. Press apply and wait.
 
 !!! success
     Now that you have a `Static IP` address, you can move on to the next step: `Port Forwarding`. Refer to the next section of the guide to continue.
+	
+[Port Forwarding](port_forwarding.md)

@@ -30,8 +30,10 @@ markdown_extensions:
 
 nav:
     - Home: index.md
-    - Guide: Setup.md
-    - Static IP: IP_guide.md
+    - 1 - Server Setup Guide: Setup.md
+    - 2 - Static IP: IP_guide.md
+    - 3 - Port Forwarding: port_forwarding.md
+    - 4 - Public IP, Server Settings and new APK: Public_IP.md
     - Go Troubleshooting: Go_troubleshooting.md
      
     

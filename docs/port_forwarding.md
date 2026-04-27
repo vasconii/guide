@@ -1,62 +1,68 @@
-## 2 - Port Forwarding inside Windows (Easy way)
+#Port Forwarding Guide (Advanced Users)
 
-One way to enable port forwarding on Windows is to open the ports in the Windows Defender Firewall.
+Now that you have set up your `Static IP`, you will need to open the ports. This is used to let a user connect from their computer to your server.
 
-!!! info
-    There is a very high chance that this won't work. Most of the time, `Port Forwarding` has to be done in the router settings. If you try this and it doesn't work, remember to undo the changes.
+!!! warning
+    This portion of the guide requires access to your home router. If you have never done this before, it is better to use a tool like `Tailscale`. Otherwise, you might mess up your internet settings.
 	
-### 2.1 - Open Windows Defender Firewall
+## 1 - Port Forwarding
 
-Type `Windows Defender Firewall` in Windows Search and press Enter.
+The process of enabling `Port Forwarding` via router varies between ISPs and router manufacturers. I will use my old home router (an Asus RT-AC51U) as an example. This will give you a rough idea on how to do it.
 
-![IP](assets/IP_config/10.png){ loading=lazy }
+!!! tip
+    If you mess up your router settings, don't worry. They all have a reset button, which is a tiny hole that you can press with a toothpick. Pressing it will restore the default settings.
+	
+And rememeber to check your router manufacturer website. Some have detailed guides on how to do this process.
 
-Next click on `Advanced settings`.
+### 1.1 - Login to your Router.
 
-![IP](assets/IP_config/11.png){ loading=lazy }
+Copy the `Default Gateway` IP adress you got earlier in the Static IP Guide and paste it on your web browser.
 
-### 2.2 - Creating a new rule
+!!! note
+    Your IP address will be different from the one shown in the images. Use the IP address that appears in your `Command Prompt`.
+	
+![IP](assets/IP_config/20.png){ loading=lazy }
 
-Select `Inbound Rules` and either right-click and press New Rule or select New Rule on the right side of the window.
+The login page should load. Enter your username and password. Many routers have "admin" as the default username and password. Try that to see if it works. If not, search for your router model online.
 
-![IP](assets/IP_config/12.png){ loading=lazy }
-
-Select Port and press Next.
-
-![IP](assets/IP_config/13.png){ loading=lazy }
-
-!!! info
-    You can also try creating the same Rule but choosing UDP.
-
-Copy and paste the ports. Press Next to continue.
-
-```batch
-8003, 8080, 3000
+``` batch
+username: admin
+password: admin
 ```
 
-![IP](assets/IP_config/14.png){ loading=lazy }
+### 1.2 - WAN Settings
 
-Select Allow the connection and press Next.
+Select WAN in the Advanced Settings. Go to the "Virtual Server / Port Forwarding" and enable Port Forwarding.
 
-![IP](assets/IP_config/15.png){ loading=lazy }
+![IP](assets/port_forward/1.png){ loading=lazy }
 
-Check all 3 options and press Next.
+Scroll until you see the "Port Forwarding List" section.
 
-![IP](assets/IP_config/16.png){ loading=lazy }
+![IP](assets/port_forward/4.png){ loading=lazy }
 
-Give it a name you can easily identify `(ex: lunar-tear-server)` and press Finish.
+### 1.3 - Opening Ports
 
-![IP](assets/IP_config/17.png){ loading=lazy }
+In the 'Service Name' field, enter the name you want. I chose 'Nier Server'. In the 'Port Range' field we need to enter the ports the server uses.
 
-Your new Rule will appear.
-
-![IP](assets/IP_config/18.png){ loading=lazy }
-
-!!! info
-    Again, there is a very high chance that this won't work. Most of the time, `Port Forwarding` has to be done in the router settings. If you attempt this method and it doesn't work, remember to undo the changes by deleting the Rule as outlined below.
+!!! note
+    These ports are the same ones we used during the main setup guide.
 	
-###2.3 - Deleting a Rule
+![Cage](assets/cage34.png){ loading=lazy }
 
-If the above didn't work it's best to delete the Rule we created. Just select your rule and either right-click and choose Delete or click  Delete on the right side of the window.
+Copy and paste the ports from bellow.
 
-![IP](assets/IP_config/19.png){ loading=lazy }
+``` batch
+8003,8080,3000
+```
+
+Enter the static IP address that we set up in the 'Static IP' section of the guide into the 'Local IP' field.
+
+![IP](assets/port_forward/2.png){ loading=lazy }
+
+Press the "+" button to add the new settings and "Apply" button to save changes.
+
+![IP](assets/port_forward/3.png){ loading=lazy }
+![IP](assets/IP_config/26.png){ loading=lazy }
+
+!!! success
+    You now have a `Static IP` address and have enabled `Port Forwarding`! The final step is to obtain your public IP address, adjust the server settings and create the new APK.
