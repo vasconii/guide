@@ -23,9 +23,13 @@ This guide wouldn't be possible without the amazing work of @Kretts and the dev 
 
 ## Guides
 
-[Guide](Setup.md)
+[1 - Server Setup Guide](Setup.md)
 
-[Static IP](IP_guide.md)
+[2 - Static IP](IP_guide.md)
+
+[3 - Port Forwarding](port_forwarding.md)
+
+[4 - Public IP, Server Settings and new APK ](Public_IP.md)
 
 [Go Troubleshooting](Go_Troubleshooting.md)
 
